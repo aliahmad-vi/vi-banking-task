@@ -39,8 +39,7 @@ task2-banking/
 │       ├── view_account_type.py
 │       ├── compare_accounts.py
 │       └── show_transactions.py
-└── tests/
-    └── test_account.py               # unittest suite
+
 ```
 
 ## OOP concepts used
@@ -56,7 +55,7 @@ task2-banking/
 ## Setup (virtual environment)
 
 ```bash
-python -m venv venv
+py -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
@@ -64,7 +63,7 @@ pip install -r requirements.txt
 ## Running the app
 
 ```bash
-python main.py
+py main.py
 ```
 
 Two demo accounts are seeded on startup:
